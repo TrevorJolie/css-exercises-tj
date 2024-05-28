@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -38,13 +39,12 @@ ul {
 
 a {
   text-decoration: none;
-  color: gray;
+  color: #666;
 }
 
 .header {
   display: flex;
   padding: 16px;
-  gap: 48px;
 }
 
 .footer {
@@ -59,9 +59,9 @@ a {
 }
 
 .content {
-  text-align: center;
-}
-
-.buttons {
-  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
